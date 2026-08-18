@@ -151,6 +151,7 @@ function vitePluginManusDebugCollector(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+const isGithubPagesBuild = process.env.VITE_GITHUB_PAGES === "1";
 
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/",
@@ -171,11 +172,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         entryFileNames: "assets/fortrex-live-20260818-1501.js",
-        manualChunks(id) {
+        manualChunks: isGithubPagesBuild ? undefined : (id) => {
           if (!id.includes("node_modules")) return;
           if (id.includes("lucide-react")) return "vendor-icons";
-          if (id.includes("/node_modules/react-dom/") || id.includes("/node_modules/react-router")) return "vendor-react-dom";
-          if (id.includes("/node_modules/react/") || id.includes("/node_modules/scheduler/")) return "vendor-react-core";
+          if (id.includes("/node_modules/react-dom/") || id.includes("/node_modules/react/") || id.includes("/node_modules/scheduler/") || id.includes("/node_modules/react-router")) return "vendor-react";
           if (id.includes("react-hook-form") || id.includes("react-remove-scroll") || id.includes("react-is")) return "vendor-react-helpers";
           if (id.includes("@tanstack") || id.includes("superjson") || id.includes("zod")) return "vendor-data";
           if (id.includes("@radix-ui") || id.includes("sonner") || id.includes("cmdk")) return "vendor-ui";
