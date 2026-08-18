@@ -1,0 +1,375 @@
+# Project TODO
+
+- [x] Establish the dark obsidian-and-gold design tokens, typography, spacing, radii, and motion system.
+- [x] Build the exact FORTREX FX navbar wordmark and single CTA.
+- [x] Build the hero section with a database-backed Genesis counter and gate-close notice.
+- [x] Build the Truth Nobody Tells Traders emotional hook section.
+- [x] Build the earned-only REX reveal with animated 1.25x, 1.50x, and 2.00x tier streams.
+- [x] Build the Architects' Circle leaderboard with ranked highlight states.
+- [x] Build the personalized Genesis Pass and referral objective UI.
+- [x] Build the Genesis registration modal with entry, verification, and pass-reveal states.
+- [x] Build returning-user post-registration state with community and share actions.
+- [x] Build Discord/Citadel, YouTube, Instagram, and Threads community cards.
+- [x] Build the footer with exact FORTREX FX logo, tagline, and copyright.
+- [x] Add database schema for platform settings, registrations, leaderboard rows, and tournament scheduling.
+- [x] Add public procedures for settings, leaderboard, and Genesis registration.
+- [x] Add role-gated admin procedures for all platform-facing numbers and tournament controls.
+- [x] Build the admin dashboard using the existing DashboardLayout component.
+- [x] Add Vitest coverage for registration and admin authorization/control flows.
+- [x] Run type checks, tests, and visual verification at desktop and mobile breakpoints.
+- [x] Save the completed project checkpoint.
+- [x] Show a clear returning-user congratulations state with share actions and confetti after registration.
+- [x] Make leaderboard rows directly editable in the admin dashboard before saving.
+- [x] Clarify that public fallback leaderboard rows are presentation placeholders until admin data is populated.
+- [x] Use actual registration response data in the pass reveal and invite/share UI.
+- [x] Persist and rehydrate returning-user Genesis state through the lookup procedure.
+- [x] Add distinct gold, silver, and bronze highlight treatments for ranks 1, 2, and 3.
+- [x] Extend admin controls to cover registration/pass-facing values shown publicly.
+- [x] Refactor the admin page to use the existing DashboardLayout component.
+- [x] Add Vitest coverage for registration and admin update success paths.
+- [x] Replace fallback leaderboard wording with explicit placeholder labeling.
+- [x] Save the final web project checkpoint after all gaps are resolved.
+- [x] Bind the modal Genesis Pass REX tier to the actual registration response.
+- [x] Add admin UI controls for referral/invite state shown publicly, including referral code.
+- [x] Add premium 3D tilt hover and glowing gold border animation to the Genesis Pass card.
+- [x] Add admin CSV leaderboard import with validation, preview, and explicit confirmation.
+- [x] Add slide-up Terms of Service modal in the footer.
+- [x] Add slide-up Privacy Policy modal in the footer.
+- [x] Validate the reusable Fortrex skill package.
+- [x] Re-run tests, visual verification, and save a checkpoint for the new features.
+- [x] Reorient the public hero and primary landing composition to a centered layout.
+- [x] Re-run tests, visual verification, and save a centered-layout checkpoint.
+- [x] Rewrite the public page as a curiosity-led Fortrex pre-launch experience.
+- [x] Remove arena, competition, tournament, broker, and operational language from public sections.
+- [x] Replace mechanics-heavy sections with emotional launch narrative and anticipation beats.
+- [x] Align hero, Genesis CTA, registration modal, community section, and footer microcopy with the launch mystery.
+- [x] Re-run tests, visual verification, and save a pre-launch messaging checkpoint.
+- [x] Replace the public Genesis Pass reveal with a mystery early-access confirmation flow.
+- [x] Remove broker, trading-interface, and other operational disclosures from stealth-mode policy sheets.
+- [x] Save a fresh checkpoint after the completed stealth pre-launch disclosure refactor.
+- [x] Update the reusable Fortrex workflow skill with the latest stealth pre-launch process and interaction patterns.
+- [x] Add required name, mobile number, and email fields to the registration flow.
+- [x] Change the successful registration CTA to Join Community.
+- [x] Add encrypted text scramble hover treatment to the main display headings.
+- [x] Add encrypted transmission received animation and reveal countdown to registration success.
+- [x] Add slow-moving gold particle dust to the public background with reduced-motion support.
+- [x] Re-run tests, validate the skill, visually verify, and save a checkpoint.
+- [x] Wire Join Community to the on-page community destination instead of a toast-only placeholder.
+- [x] Apply encrypted scramble hover/focus treatment to the primary lower-section display headings.
+- [x] Save a fresh checkpoint after the final interaction refinements.
+- [x] Preserve the existing Fortrex gold identity, centered layout, stealth copy, registration flow, and CTA behavior.
+- [x] Add controlled midnight-navy and deep-violet structural tones with cobalt/cyan secondary glows.
+- [x] Refine glass, chrome, crystal, sci-fi grid, and lens-flare surfaces without reducing readability.
+- [x] Add restrained neon-lime usage for high-contrast state cues while keeping gold as the brand accent.
+- [x] Visually verify the cyber-fintech refinement on desktop and mobile, rerun tests, and save a checkpoint.
+- [x] Add explicit chrome/crystal surface treatments to the focal visual and key glass panels.
+- [x] Verify the cyber-fintech refinement at a mobile breakpoint.
+- [x] Save a fresh checkpoint after the final cyber-fintech verification.
+- [x] Update the reusable Fortrex skill with WebGL-style particles, crystal CTA hover, invite copying, and social-card tooltip patterns.
+- [x] Add a lightweight WebGL-style gold particle background effect with reduced-motion fallback.
+- [x] Add a 3D crystal hover state to the main CTA button without changing its copy or placement.
+- [x] Add one-click Copy Invite Link with a glowing success toast after registration.
+- [x] Add official-handle tooltips and neon hover borders to community social cards.
+- [x] Re-run tests, validate the skill, visually verify, and save a checkpoint.
+- [x] Keep social-card tooltip values as clearly labelled pending placeholders until the approved official Discord, YouTube, Instagram, and Threads handles are supplied by the user.
+- [x] Save the current checkpoint with link-ready social placeholders; replace targets when the user supplies official URLs.
+- [x] Generate a refined Fortrex shield-and-fortress crest inspired by the supplied reference, with clean website legibility.
+- [x] Prepare logo variants and usage guidance for navbar, hero, favicon, and social placements.
+- [x] Keep social destinations as link-ready placeholders until official URLs are supplied.
+- [x] Add explicit navbar, app-icon, social/avatar, and hero logo usage guidance around the regenerated crest.
+- [x] Convert social cards into link-ready placeholder targets without inventing official URLs.
+- [x] Visually verify the regenerated crest at navbar and small-size contexts after generation resolves.
+- [x] Update the reusable Fortrex skill with centered copy, crest reveal, logo-export, and inline-validation guidance.
+- [x] Remove the words signals, deposits, and private from public-facing copy while keeping the layout centered.
+- [x] Add a short cinematic first-load reveal for the Fortrex crest.
+- [x] Create favicon, app-icon, and transparent crest export assets for website and social use.
+- [x] Add real-time inline email and mobile validation with subtle gold glow feedback.
+- [x] Re-run tests, validate the skill, visually verify, and save a checkpoint.
+- [x] Keep community cards wired to clearly labelled official-link placeholders until URLs are supplied.
+- [x] Add loading spinner and success animation to registration submission feedback.
+- [x] Add subtle reduced-motion-safe parallax movement to background and focal elements.
+- [x] Verify community hover states, rerun tests, and save a checkpoint.
+- [x] Audit every public page and modal for blocked copy and remove all remaining occurrences.
+- [x] Center-align all primary public headings, labels, messages, and community-card content where the user requested centered lines.
+- [x] Run a second exact copy scan, rerun tests, verify hover/loading/parallax behavior, and save a corrected checkpoint.
+- [x] Center the hero progress labels, registration modal labels, and modal microcopy that remain split-aligned.
+- [x] Explicitly verify community hover tooltip/border, registration loading/success, and parallax behavior, then record evidence.
+- [x] Save a fresh corrected checkpoint after the final verification pass.
+- [x] Center the registration notice row and verification-state log content inside the modal.
+- [x] Save a new checkpoint after this last centering correction and verification.
+- [x] Preserve community destinations as clearly labelled placeholders until official URLs are supplied.
+- [x] Ensure invalid email and mobile inputs show inline glowing red text and accessible invalid state.
+- [x] Add and run end-to-end browser coverage for registration and community-card interactions across desktop and mobile.
+- [x] Audit all TODOs, run final checks, visually verify, and save a checkpoint.
+- [x] Run a fresh visual verification after the final red invalid-state styling and end-to-end test additions.
+- [x] Save a new checkpoint after the final validation, browser coverage, TODO audit, and visual verification.
+- [x] Add a sticky mobile bottom navigation bar with registration and community actions.
+- [x] Add a smooth registration success transition with personalized welcome copy.
+- [x] Add browser coverage for mobile navigation and personalized success state.
+- [x] Run final checks, audit TODOs, visually verify, and save a checkpoint.
+- [x] Add a mobile slide-up Community preview panel opened from bottom navigation.
+- [x] Replace the registered bottom-nav action with a profile icon and personalized label.
+- [x] Add a subtle pulse animation to the pre-registration bottom-nav action.
+- [x] Test responsive interactions, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Add a mobile profile popover with Settings and Logout actions.
+- [x] Add a Community notification badge for new channel updates.
+- [x] Add a fade transition when Register changes to the profile icon after registration.
+- [x] Test navigation interactions, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Add a placeholder avatar and personalized welcome message to the profile popover.
+- [x] Add a functional dark-mode toggle to the Settings sheet.
+- [x] Add a logout confirmation dialog before clearing the local profile.
+- [x] Test profile interactions, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Add a smooth global fade transition when switching themes.
+- [x] Add an Edit Profile option with username and bio editing.
+- [x] Add custom avatar upload with a persisted local preview.
+- [x] Test profile flows, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Add a dedicated desktop profile settings view for larger screens.
+- [x] Add bio character counter and validation to Edit Profile.
+- [x] Add avatar file-size validation and a crop step before saving.
+- [x] Test responsive profile flows, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Add animated success feedback after saving profile changes.
+- [x] Add profile completion progress for username, bio, and avatar.
+- [x] Add drag-to-position controls to the avatar crop editor.
+- [x] Test profile flows, verify visuals, audit TODOs, and save a checkpoint.
+- [x] Apply liquid-glass and frosted refractive surfaces across the public page.
+- [x] Add neo-futurist chrome, chromatic dispersion, and controlled neon accent treatments across key UI elements.
+- [x] Preserve existing registration, profile, community, and admin interactions during the visual refactor.
+- [x] Run visual and functional validation, audit TODOs, and save a checkpoint.
+- [x] Add a branded liquid-glass loading screen and first-load reveal.
+- [x] Add a liquid chrome hover treatment to the Edit Profile action.
+- [x] Add a neon accent glow to the profile completion progress bar.
+- [x] Add a glassmorphism Community search bar for channel/message filtering.
+- [x] Run responsive and interaction validation, audit TODOs, and save a checkpoint.
+- [x] Apply liquid chrome and glassmorphism treatment to the avatar crop tool and Settings sheet.
+- [x] Add functional trending channels and suggested topics below the empty Community search.
+- [x] Add persisted recent searches and keyboard arrow navigation to Community search.
+- [x] Verify every new control works, run responsive tests, audit TODOs, and save a checkpoint.
+- [x] Refine focal surfaces toward physically heavy liquid glass, caustics, dispersion, and iridescence from the attached brief.
+- [x] Strengthen dark jewel-tone atmosphere, diagonal depth, organic flow, and neon lighting while preserving Fortrex gold identity.
+- [x] Preserve all real registration, profile, Community, Settings, crop, and admin controls without decorative-only actions.
+- [x] Run responsive and interaction validation, audit TODOs, and save a checkpoint.
+- [x] Supersede the pre-launch Community search with an honest launch-soon state because no real searchable content exists.
+- [x] Compress avatar images in the browser before local persistence.
+- [x] Keep Community placeholder URLs and handles link-ready and clearly labelled until user-approved official destinations are supplied.
+- [x] Add validation for compression, responsive behavior, and save a checkpoint; official links remain pending user URLs.
+- [x] Apply audit fixes for credibility, conversion clarity, scroll guidance, mobile CTA grouping, and meaningful community empty-state behavior.
+- [x] Prior Community search iteration was superseded by the honest launch-soon state before final delivery.
+- [x] Compress avatar images in the browser before persistence and validate size/type.
+- [x] Consolidated into the single pending official Community URL task above; no destinations invented.
+- [x] Add browser coverage, visual verification, TODO audit, and save a checkpoint.
+- [x] Apply attached foundation refinements: smooth scrolling, scroll progress, scroll-triggered section reveals, mouse halo, and responsive spacing.
+- [x] Refine sticky navbar, hero reveal, CTA interactions, scarcity motion, and honest status presentation.
+- [x] Strengthen registration modal accessibility, animation, validation, trust copy, success feedback, and Escape handling.
+- [x] Replace confusing pre-launch Community search with honest launch messaging unless real searchable content exists; preserve approved links only.
+- [x] Add functional footer conversion path, legal modal access, metadata/accessibility/performance polish, and reduced-motion support.
+- [x] Validate all real controls across 375px, 768px, and 1440px surfaces, audit TODOs, and save a checkpoint.
+- [x] Replace the remaining Community search UI with an honest launch-soon message while retaining only real functional update capture.
+- [x] Add actual registration modal entrance/exit and close-hover CSS hooks, plus full-name validation feedback.
+- [x] Replace the public “Encrypted message / DETECTED” treatment with a credible launch-status presentation.
+- [x] Save a fresh checkpoint after the remaining audit gaps pass validation.
+- [x] Add the ultra-refractive liquid-glass visual layer with obsidian, midnight, violet, cyan, and magenta atmosphere.
+- [x] Add a prominent refractive glass loop/ribbon focal treatment and supporting floating glass geometry without introducing fake controls.
+- [x] Upgrade cards, navigation, CTA surfaces, borders, and hover states with accessible glassmorphism and neon accents.
+- [x] Preserve all real registration, profile, Community, Settings, crop, legal, and admin interactions.
+- [x] Validate visual quality at mobile, tablet, and desktop widths, run full tests, audit TODOs, and save a checkpoint.
+- [x] Reconcile remaining launch-brief motion details: preloader fade, hero stagger, urgency breathing, shimmer, card glow, and scroll cues.
+- [x] Complete modal feedback details: stricter Indian mobile validation, blur-only errors, loading feedback, and live accessibility announcements.
+- [x] Complete responsive/accessibility/performance polish from the brief, including responsive CTA stacking, dialog semantics, icon labels, and reduced-motion support.
+- [x] Keep Community placeholders clearly labelled and ready for replacement when user-approved official URLs and handles are supplied; no destinations invented.
+- [x] Run full validation at 375px, 390px, 768px, and desktop, audit TODOs, and save a checkpoint.
+- [x] Add a true reduced-motion-safe preloader fade-out before removing the boot screen.
+- [x] Add role="dialog" and aria-modal="true" to the registration modal and verify its keyboard path.
+- [x] Capture a fresh 390px visual verification and save a checkpoint after these final launch-brief fixes.
+- [x] Add a subtle gold liquid-glass hover animation to the registration submit button with reduced-motion support.
+- [x] Track CTA clicks, completed registrations, and invite-link copies through the existing analytics path.
+- [x] Defer Community Discord and YouTube URL replacement by user direction; keep placeholders link-ready until official URLs are supplied.
+- [x] Add/update validation and complete responsive visual verification for the new submit animation and analytics events; official Community links remain pending user URLs.
+- [x] Create a logo-derived translucent 3D king's crown asset with clean alpha and Fortrex gold refraction.
+- [x] Integrate the crown into the website without replacing the existing crest identity or disrupting the centered layout.
+- [x] Standardize black/obsidian background treatment and apply integrated liquid-glass depth to social icons and central graphics behind transparent cards.
+- [x] Run visual and functional validation for the new crown and glass-material pass, then save a checkpoint.
+- [x] Superseded by the corrected hero scope: keep the translucent crown and remove the circular and figure-eight layers instead.
+- [x] Superseded by the corrected hero validation pass recorded below.
+- [x] Keep the translucent crown, remove the large circular glass forms and the figure-eight refractive layer, and preserve the “Be early.” launch card.
+- [x] Run responsive visual and functional validation for the corrected hero composition, then save a checkpoint.
+- [x] Adopt the supplied faceted black-and-gold crown as the authoritative Fortrex visual language without visible green-background artifacts.
+- [x] Refit site colors, glass surfaces, watermarks, and icon treatments to the crown’s obsidian, beveled-gold, and controlled spectral-reflection material system.
+- [x] Validate clean compositing, responsive spacing, and no-overlap behavior across the page, then save a checkpoint.
+- [x] Preview the current website at mobile and desktop widths for crown-logo and glassmorphism balance.
+- [x] Refine shared palette tokens and glass surfaces to match the crown’s obsidian, beveled-gold, steel, and spectral-reflection material.
+- [x] Refine the header crown logo and watermark treatment without overlap, then validate and save a checkpoint.
+- [x] Preview the updated website at desktop and mobile widths for crown-language and glassmorphism consistency.
+- [x] Refine remaining icons and UI components to the crown’s obsidian, beveled-gold, steel, and spectral-reflection system.
+- [x] Validate readability, spacing, and interactions after the component audit, then save a checkpoint.
+- [x] Continue visual-only refinement of crown-material consistency, glass depth, icon treatments, palette, spacing, and responsive composition; defer social URL replacement until user supplies links.
+- [x] Implement a custom reduced-motion-safe loading animation using the translucent crown logo.
+- [x] Add subtle hover and glowing transition effects to glassmorphism cards without overlap or accessibility regressions.
+- [x] Build and route a compact design-token reference page documenting the crown material language and palette.
+- [x] Run responsive visual and functional validation for the new loading, token page, and card interactions, then save a checkpoint.
+- [x] Add a functional theme toggle that adapts crown contrast, glass fills, and spectral highlights while preserving readability.
+- [x] Add an interactive hover-state gallery to /design-tokens for glass cards, gold chrome, spectral edges, and icon controls.
+- [x] Run responsive, theme, accessibility, and gallery validation, then save a checkpoint.
+- [x] Separate the crown focal logo and “Be early.” card with intentional layer spacing and no overlap across desktop and mobile.
+- [x] Apply gold-chrome edge glow and reflective sweep interactions consistently across the complete visible glass UI.
+- [x] Initialize the theme from the user’s system preference on first load, while preserving persisted manual overrides.
+- [x] Run visual, accessibility, theme, and browser validation for the refinements, then save a checkpoint.
+- [x] Update the theme interaction coverage so it accepts the system-derived initial state and verifies both toggle directions without assuming dark mode is always the default.
+- [x] Refine mobile hero spacing so the crown mark and “Be early.” card remain separated and balanced at narrow widths.
+- [x] Add a crown-material custom cursor that responds to pointer movement and reflective sweep surfaces without affecting touch devices.
+- [x] Add smooth reduced-motion-safe parallax to background and glass focal elements.
+- [x] Run responsive, accessibility, motion, and browser validation for the new mobile/cursor/parallax work, then save a checkpoint.
+- [x] Remove the custom crown cursor markup, pointer logic, and cursor-specific styling while preserving normal pointer behavior.
+- [x] Add a functional email input and glass submit button inside the “Be early.” card with validation, success feedback, and reflective-sweep hover.
+- [x] Apply gold-chrome edge glow and reflective sweep effects to main navigation items and preserve responsive behavior.
+- [x] Run accessibility, functional, responsive, and browser validation for the new card/navigation interactions, then save a checkpoint.
+- [x] Fix E2E email selectors so the new “Be early.” email field does not conflict with the registration dialog’s Email address field.
+- [x] Add clearly labelled placeholder social icons to the footer with gold-chrome edge glow and reflective sweep hover effects.
+- [x] Strengthen the sticky scroll-activated header with glassmorphism blur and responsive spacing.
+- [x] Add an animated checkmark and personalized thank-you message after valid “Be early.” email submission.
+- [x] Run responsive, accessibility, and browser validation for the footer, header, and email-success updates, then save a checkpoint.
+- [x] Add subtle crown-color confetti to the valid “Be early.” email-success state with reduced-motion support.
+- [x] Validate the success animation at mobile and desktop widths and through the browser suite, then save a checkpoint.
+- [x] Reduce mobile hero-card height and improve crown/card separation so the card does not dominate or feel overlapped.
+- [x] Rebalance the mobile header logo and CTA for comfortable width, readable text, and usable touch targets.
+- [x] Add a glassmorphism Share status action with Web Share/API and clipboard fallback behavior.
+- [x] Add an Explore More action that scrolls to the main content/community area and remains usable on mobile.
+- [x] Ensure the success state remains scrollable, accessible, and visually balanced; run mobile/desktop browser validation and save a checkpoint.
+- [x] Add a registration-backed Genesis List counter beneath the “Be early.” email input without inventing a static social-proof number.
+- [x] Apply gold-chrome edge glow and reflective sweep hover treatment to Explore More.
+- [x] Generate a pre-filled site-share message/link for Share Status with Web Share and clipboard fallback.
+- [x] Run responsive, accessibility, data, and browser validation for these updates, then save a checkpoint.
+- [x] Connect the Genesis List counter to a production-backed real-time update stream with a safe initial query and no fabricated increments.
+- [x] Add a subtle reduced-motion-safe pulse only when the live counter increases.
+- [x] Refine the crown logo to be upright, centered, semi-transparent, and cleanly separated from the launch card across desktop and mobile.
+- [x] Validate real-time data behavior, alignment, spacing, accessibility, and responsive visual quality, then save a checkpoint.
+- [x] Add a smooth reduced-motion-safe fade-in for the centered crown on initial page load.
+- [x] Add an accessible hover/focus tooltip showing the exact time of the live counter’s last successful update.
+- [x] Replace counter polling with a production WebSocket channel, retaining the initial query and safe reconnect/fallback behavior.
+- [x] Validate WebSocket lifecycle, timestamp updates, responsive visuals, accessibility, and browser flows, then save a checkpoint.
+- [x] Refine the light-theme palette for stronger contrast and a premium gold/champagne surface treatment.
+- [x] Make the profile experience open centered with a smooth, reduced-motion-safe entrance animation.
+- [x] Increase the visible crown/logo opacity across the website without losing translucency or alignment.
+- [x] Validate light/dark themes, profile interaction, responsive layout, and accessibility, then save a checkpoint.
+- [x] Explicitly center the “The people who arrive early rarely need to explain why.” line across desktop and mobile widths, then validate and save a checkpoint.
+- [x] Recompose the Be early launch card with the Fortrex crown centered, simplify the Launch moment/SOON treatment, and preserve functional email capture and Genesis counter behavior.
+- [x] Give the Be Early card a sleek modern composition with smoother fade-in motion, a more visible email field, and a more engaging Continue button while preserving all existing interactions.
+- [x] Complete the sleek Be Early card entrance and add a personalized post-registration welcome state with the member name, encrypted-transmission confirmation, Copy Invite, Share Status, and Explore More actions.
+- [x] Remove the unwanted First reveal / soon, Be early, first-message, transmission, welcome, invite-link, and welcome-action content from the Be Early card while preserving the centered crown and working registration flow.
+- [x] Remove the duplicated crown thumbnail layer and use one clean transparent crown render in the focal card.
+- [x] Rebalance the focal card with frosted glass contrast, gradient border, soft gold/cyan lighting, scaled crown placement, and lower status/title/action content.
+- [x] Apply Fortrex cyan/emerald edge lighting to the crown treatment and refine email input and Continue hover states.
+- [x] Validate transparency, responsive composition, registration flow, and accessibility, then save a checkpoint.
+- [x] Replace Crown Pass #001 with Genesis Member Pass, add early access/exclusive drops/premium support perks, add one-click pass-link copy, and implement reduced-motion-safe 3D tilt interaction.
+- [x] Add a subtle Genesis Member Pass title glow pulse, temporary green Copied! copy feedback, and a dedicated prefilled Share on X action with reduced-motion-safe behavior.
+- [x] Redesign the Genesis Member Pass card to a centered max-400px dark-glass hierarchy with a blended neon crown, centered feature pills, and sleek dual Copy Pass Link / Share on X actions while preserving existing behavior.
+- [x] Fix Genesis Member Pass parent/card centering and clipping, enforce responsive padding/alignment for crown, text, pills, and actions, add action hover glows, personalize the mock pass URL with a user ID, and show brief Share on X success feedback.
+- [x] Add cursor-following card glare tied to 3D tilt, slide-up success toasts with a checkmark, and a compact barcode representing the Genesis Member Pass user ID with reduced-motion-safe behavior.
+- [x] Perfectly center the Genesis Member Pass viewport stage, remove the left-side visual obstruction, preserve only 3D tilt transforms, and apply the requested luxury gold glass, crown glow, badge, title, and primary button styling.
+- [x] Center the Genesis Member Pass card on desktop and mobile by removing any remaining parent offset or left-side positioning while preserving all current visuals and interactions.
+- [x] Remove the Genesis Member Pass card and its related visual block from the landing page, remove any card-only spacing remnants, and preserve the hero, registration CTA, live counter, and responsive layout.
+- [x] Add a sleek reduced-motion-safe registration success animation, a subtle glowing hover treatment to the Join the Genesis List CTA, and a smooth initial number roll for the live Genesis counter.
+- [x] Prepare a complete Fortrex theme and visual specification for Base44 website implementation and Instagram post production, including tokens, components, motion, responsive rules, templates, prompts, and content guardrails.
+- [x] Redesign the Official Channels Launching Soon banner and four social cards with refined dark glass, clean platform headers, aligned typography, gold hover glow, and Coming Soon / Notify Me status footers while preserving functional update capture.
+- [x] Redesign the Official Channels Launching Soon banner and four social cards with refined dark glass, clean platform headers, aligned typography, gold hover glow, and Coming Soon / Notify Me status footers while preserving functional update capture.
+- [x] Add staggered scroll reveal animations to Official Channels cards, inline Notify Me email validation with animated success checkmark, and accessible platform expectation tooltips.
+- [x] Make Official Channels animations and tooltips theme-aware, add honest availability badges or dates, connect Notify Me to a mock submission API with loading states, and remove the initial loading animation.
+- [x] Add active/platform channel filters and theme-adaptive background particle colors; the earlier Notify Me confetti request was superseded when the user removed Notify Me from social cards.
+- [x] Remove Notify Me controls from Official Channels social cards and rebalance their footers without removing platform information, availability badges, filters, or tooltips.
+- [x] Add a smooth “Check your email” recovery state with animated confirmation, resend feedback, and a 60-second countdown cooldown while preserving validation, accessibility, and responsive behavior.
+- [x] Update stale Official Channels browser assertions to match the current approved Coming soon / Opening soon footer design and no social-card update-capture controls, without changing the product UI.
+- [x] Verify supplied audit findings and implement confirmed high-confidence improvements for SEO title/description, Open Graph/Twitter metadata, canonical URL, favicon, and accessible Terms/Privacy entry points while preserving the crown-logo visual system; these items were already present in the active baseline and required no visual changes.
+- [x] Add resend-success toast feedback, visible footer contact email, placeholder Terms/Privacy destinations, focus trapping and restoration for the recovery modal, and remove the FORTREX FX text from the navigation panel while preserving the crown mark and CTA.
+
+- [x] Fix the Contact Us mailto JSX parser issue without changing existing registration or community flows.
+- [x] Add a functional gold-accented Contact Us support modal with message entry and email handoff.
+- [x] Add a visible scroll-to-top control that appears after the user scrolls.
+- [x] Refine crown-mark hover feedback in the navigation and verify footer alignment.
+- [x] Run type checks, tests, production build, and desktop/mobile visual verification.
+- [x] Save the final verified checkpoint.
+
+- [x] Audit every accumulated user requirement against the current implementation and classify each as complete, pending, superseded, or missing.
+- [x] Verify current public copy, interactions, registration/recovery/profile/community flows, responsive behavior, tests, assets, and deployment state.
+- [x] Document any remaining gaps and distinguish intentional placeholders from unfinished work.
+
+- [x] Add admin trader ROI data entry with a decimal percentage field, admin validation, database migration, and regression coverage.
+- [x] Audit recovery and support delivery: the current zero-cost mailto fallback remains functional; real provider delivery is explicitly deferred until a provider and credentials are supplied.
+- [x] Audit community destinations: clearly labelled placeholders remain intentionally until the user supplies approved Discord, YouTube, Instagram, and Threads URLs.
+- [x] Audit Community notification state: the badge is documented as local launch-placeholder UX until a real update source is selected.
+- [x] Remove superseded Community search state, helpers, and Notify Me mock procedure; document the remaining non-blocking bundle/CSS advisories for a later performance pass.
+
+- [x] Audit every public registration, recovery, profile, community, theme, mobile-navigation, contact, and admin workflow for missing states or dead ends.
+- [x] Add a secure admin workspace showing all stored registered-user records and website analytics in one panel.
+- [x] Add privacy-safe first-party analytics aggregation, date-range summaries, daily activity, top-event breakdowns, recent events, and responsive visualizations.
+- [x] Add admin authorization, server validation, analytics ingestion tests, responsive verification, CSV export, and registration search.
+- [x] Document remaining data-source, privacy, URL, and email-provider dependencies; no raw passwords, payment data, IP addresses, or device fingerprints are stored.
+
+- [x] Fix the confirmed Contact Us character-counter semantics, footer social-button behavior, Active-filter empty-state, and visible FTX-code issue from the attached audit.
+- [x] Verify viewport metadata, SEO/Open Graph/Twitter metadata, canonical URL, favicon, accessibility labels, and mobile presentation.
+- [x] Add a visible hero scroll cue and verify loading, validation, success, duplicate, and server-error states across registration and recovery.
+- [x] Confirm no builder badge is present in the shipped source and confirm public copy remains free of prohibited operational terminology.
+- [x] Reverify backend persistence, consent-gated analytics tracking, admin user-data/analytics, and all responsive workflows.
+- [x] Document external dependencies: approved social URLs, custom-domain binding, legal-grade Terms/Privacy review, email/SMS providers, and production anti-spam/rate-limit policy remain launch decisions or credentials.
+
+- [x] Remove the light-theme toggle and force dark obsidian-and-gold styling across all public and profile interfaces.
+- [x] Update theme-related tests and verify the dark-only experience on desktop and mobile.
+
+- [x] Audit authentication, admin authorization, input validation, rate limiting, privacy, storage, analytics, headers, and public workflow edge cases.
+- [x] Fix every reproducible security issue or functional bug found in the audit.
+- [x] Add regression coverage for the security fixes and critical workflow boundaries.
+- [x] Run full checks, tests, production build, responsive verification, dependency audit, and document unresolved external dependencies.
+
+- [x] Add distributed rate-limit buckets and privacy-safe security events with bounded retention metadata.
+- [x] Replace the in-memory public limiter with atomic database-backed limiting and add honeypot/bot protection for public registration and analytics.
+- [x] Add admin-only security summaries for rate-limit blocks, bot blocks, rejected analytics payloads, and recent security events.
+- [x] Build the responsive admin Security dashboard with safe summaries and no raw IP or sensitive payload exposure.
+- [x] Add regression tests, run migrations, full checks, browser tests, build, dependency audit, and save a verified checkpoint.
+
+- [x] Defer configurable managed bot-protection verification for registration and analytics endpoints until the user supplies provider credentials; retain honeypot and database-backed safeguards.
+- [x] Defer the optional managed Redis adapter until the user supplies provider configuration; retain the distributed database-backed limiter and document the boundary.
+- [x] Add privacy retention controls plus admin delete/anonymize actions with confirmation and audit logging.
+- [x] Add admin audit logs for settings, registration, ROI, leaderboard, tournament, retention, and security actions.
+- [x] Improve admin loading, error, stale-data, and manual-refresh states.
+- [x] Reduce frontend CSS warnings and make the crown asset resolution explicit; the remaining 969 kB client bundle advisory is documented for a later code-splitting pass.
+- [x] Keep official social URLs, legal copy, email provider, Redis credentials, bot-service keys, and custom-domain details explicitly pending until supplied or configured.
+
+- [x] Defer Cloudflare Turnstile, managed Redis, and real email delivery until provider credentials and configuration are supplied; preserve the current safe fallbacks.
+- [x] Implement non-blocked privacy retention, anonymization/deletion, admin audit logs, resilience states, and frontend warning cleanup.
+- [x] Replace the last visible consent-banner use of signal terminology with neutral privacy language and reverify desktop/mobile presentation.
+- [x] Final non-blocked validation: 17 Vitest tests passed, production build passed, crown asset warning removed, CSS optimizer warning removed, and the remaining bundle-size advisory is documented.
+- [x] Add a functional admin workspace theme toggle with persisted preference and accessible state.
+- [x] Improve Analytics and Security panel responsiveness for narrow admin viewports without changing the dark-luxury visual language.
+- [x] Perform focused route/vendor code splitting and reduce the primary client bundle below the 500 kB advisory; the largest generated client chunk is now 359.51 kB.
+- [x] Add a production-safe Content-Security-Policy and verify compatibility with the app's required runtime and analytics connections.
+- [x] Redact production error stack traces and add real robots.txt, sitemap.xml, structured metadata, and absolute canonical social metadata where domain-safe.
+- [x] Add appropriate cache headers for hashed assets and bounded caching for HTML.
+- [x] Fix actionable Contact Us, footer/community navigation, active-filter empty state, and rendering-resilience issues without inventing official URLs or legal copy; remaining footer social destinations stay deferred until official URLs are supplied.
+- [x] Re-run security/build/test/browser validation and save an audit-remediation checkpoint; keep managed WAF/Redis, email, social URLs, legal copy, and custom domain deferred.
+- [x] Restore the unavailable local preview service, then verify preview and production endpoint behavior separately after the deployment incident; both endpoints now return the Fortrex landing document.
+- [x] Continue restoring the Fortrex preview and live site after explicit user confirmation; the restarted preview and production endpoint now return the Fortrex landing document.
+- [x] Restore the recurring Fortrex preview connection failure and identify why the preview URL becomes unreachable after service/deployment restarts; restart restored the preview and the full landing page renders.
+- [x] Diagnose and repair the newly reported Fortrex website breakage, then validate preview and production rendering before resuming feature work; preview is healthy and the fresh production entry is ready for live verification.
+- [x] Emit and publish a fresh production entry asset that bypasses the stale live CDN bundle while preserving the healthy local Vite preview; fresh 145.06 kB entry built and referenced by production HTML.
+- [x] Add a static fallback UI that displays a friendly message if the React application fails to mount.
+- [x] Implement a root-level React error boundary for mounting and rendering failures.
+- [x] Force a fresh deployment from the 51c9f7ec source; TypeScript, 18 Vitest tests, production build, and preview verification passed. Production propagation remains the post-publish check.
+- [x] Add detailed development-only ErrorBoundary console diagnostics with production-safe redaction; TypeScript, 18 Vitest tests, and production build passed.
+- [x] Compare live HTML, local build markers, and production runtime logs; live HTML now contains the recovery marker and fresh entry, while production runtime logs show only normal server startup and no CDN error telemetry.
+- [x] Prepare step-by-step Management UI redeployment guidance; CDN invalidation remains a platform action rather than an application-code change.
+- [x] Allow the trusted Manus preview origin in frame-ancestors without broadening other CSP sources; verified `https://*.manus.computer` is the only added framing origin and removed conflicting X-Frame-Options.
+- [x] Audit all CSP directives and verify public URL and React ErrorBoundary behavior; CSP header, TypeScript, 18 Vitest tests, build, and preview checks passed; production remains on the old cached entry until fresh publish.
+- [x] Publish a new unique entry filename containing the CSP update and ErrorBoundary diagnostics; fresh 145.82 kB `fortrex-live-20260818-1338.js` built and production HTML references it, pending deployment propagation.
+- [x] Verify the published fresh entry asset returns HTTP 200 on production.
+- [x] Add a Retry action to the ErrorBoundary fallback and a smooth initial asset-loading animation.
+- [x] Diagnose why the latest live or preview experience is not visible and restore the mounted Fortrex UI without changing the design; the live domain was serving the stale 1338 entry while preview mounted correctly, so a fresh 1501 entry was emitted.
+- [x] Diagnose and restore the broken Management UI preview tab; verify the preview mounts the full Fortrex interface after recovery. Restarted the dev service, cleared the failed process state, and confirmed the full hero/CTA/consent UI renders.
+- [x] Audit the live public site for console errors, failed requests, and visible styling issues; document findings. Live audit found the production site still serving the recovery screen instead of mounting React; CSP is now narrowly framed for trusted preview origins, and preview renders the full page. No new styling regression was observed in preview.
+- [x] Document the supported workflow for adding new pages/features and connecting a custom domain. Add pages through App.tsx/routes and page components, wire server features through schema/db/routers/tests, then save a checkpoint; connect domains through Management UI Settings → Domains after providing the domain and DNS access.
+- [x] Allow the trusted Manus Management UI origins in `frame-ancestors` so the preview iframe is not blocked, while keeping the CSP narrowly scoped; exact `https://manus.im` was added and the existing preview origin was preserved.
+- [x] Verify deployed CSP headers and confirm the preview tab renders after the latest security-header change; public and preview responses include the expected frame-ancestors policy, and the preview renders the full page.
+- [x] Document safe custom security-header and CORS configuration points for the Fortrex server; security headers belong in `server/_core/index.ts`, while CORS should be added as an explicit allowlist middleware for approved origins and methods only.
+- [x] Add a slide-up consent data-policy modal with accessible dismiss and preference controls; validated the banner’s View Data Policy entry point and slide-up presentation in the preview.
+- [x] Add hero CTA hover feedback and a loading state during registration initiation; added disabled/aria-busy handling, spinner feedback, press scale, and reduced-motion support.
+- [x] Add a smooth reduced-motion-safe countdown animation to the Genesis counter; enhanced the existing live counter roll/pulse with a dedicated cascade animation and accessible live region.
+- [x] Restore the Management UI preview so the full Fortrex landing page is visible and confirm the repaired preview URL directly; the active preview server is healthy and the direct screenshot shows the mounted hero, CTA, and consent controls.
+- [ ] Upload the current GitHub-ready Fortrex source to `somilsharma2000/fortrexfxmanusgold` without secrets or generated artifacts.
+- [ ] Verify the remote commit and GitHub Pages configuration inputs after upload.

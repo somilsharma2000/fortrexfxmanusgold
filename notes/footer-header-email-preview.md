@@ -1,0 +1,3 @@
+# Footer, header, and email-success preview findings
+
+At 390px, the hero email field remains contained inside the Be early card with readable wrapping and no collision with the crown. Community and footer placeholder social controls stack cleanly in the long mobile flow. At 1440px, the centered hero card, four Community cards, and footer icon pills remain balanced within the black crown-led composition. The header retains a compact, high-contrast CTA and the scroll state is styled as a stronger frosted glass surface. Placeholder icons remain clearly presented as update-oriented controls rather than invented destinations.

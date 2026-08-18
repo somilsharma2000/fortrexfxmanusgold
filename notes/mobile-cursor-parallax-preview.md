@@ -1,0 +1,3 @@
+# Mobile cursor and parallax preview findings
+
+At 390px, the hero remains centered with the header crown and primary CTA fitting cleanly. The responsive focal stage now appears below the progress region: the crown is separated above the “Be early.” card, and the card remains readable without colliding with the sticky bottom navigation. The custom crown cursor is hidden on coarse/touch pointers, while the cursor and reflective sweep behavior remain desktop-only. The page-level parallax variable continues to move the atmospheric background, hero focal stage, and gold dust with reduced-motion safeguards.

@@ -1,0 +1,20 @@
+import fs from "node:fs";
+
+const path = "client/src/pages/Home.tsx";
+let source = fs.readFileSync(path, "utf8");
+source = source.replace('const [cardEmailSent, setCardEmailSent] = useState(false);', 'const [cardEmailSent, setCardEmailSent] = useState(false); const [channelFilter, setChannelFilter] = useState<"all" | "active" | "coming-soon">("all"); const [channelPlatform, setChannelPlatform] = useState("all");');
+source = source.replace('const visibleChannels = communityChannels.filter((item) => `${item.name} ${item.sub} ${item.message} ${item.handle}`.toLowerCase().includes(communityQuery.trim().toLowerCase()));', 'const visibleChannels = communityChannels.filter((item) => `${item.name} ${item.sub} ${item.message} ${item.handle}`.toLowerCase().includes(communityQuery.trim().toLowerCase())); const filteredChannels = visibleChannels.filter((item) => (channelFilter === "all" || (channelFilter === "active" ? item.status === "Active" : item.status !== "Active")) && (channelPlatform === "all" || item.sub === channelPlatform));');
+source = source.replace('visibleChannels.map((item, index)', 'filteredChannels.map((item, index)');
+const marker = '<div ref={communityCardsRef} className={`community-card-grid';
+const filterMarkup = '<div className="community-channel-filters" aria-label="Filter official channels"><div className="community-filter-group" role="group" aria-label="Channel status"><button type="button" onClick={() => setChannelFilter("all")} className={`community-filter-chip ${channelFilter === "all" ? "is-active" : ""}`}>All</button><button type="button" onClick={() => setChannelFilter("active")} className={`community-filter-chip ${channelFilter === "active" ? "is-active" : ""}`}>Active</button><button type="button" onClick={() => setChannelFilter("coming-soon")} className={`community-filter-chip ${channelFilter === "coming-soon" ? "is-active" : ""}`}>Coming soon</button></div><label className="community-platform-filter"><span>Platform</span><select value={channelPlatform} onChange={(event) => setChannelPlatform(event.target.value)} aria-label="Filter by platform"><option value="all">All platforms</option><option value="Discord">Discord</option><option value="YouTube">YouTube</option><option value="Instagram">Instagram</option><option value="Threads">Threads</option></select></label></div>';
+if (!source.includes(marker)) throw new Error("Channel grid marker not found");
+source = source.replace(marker, filterMarkup + marker);
+source = source.replace('filteredChannels.length === 0 && <p', 'filteredChannels.length === 0 && <p');
+const oldParticle = 'const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; const ctx = canvas.getContext("2d"); if (!ctx) return; let frame = 0;';
+const newParticle = 'const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; const ctx = canvas.getContext("2d"); if (!ctx) return; let frame = 0; let particleColor = "242, 209, 138"; const updateParticleTheme = () => { particleColor = document.documentElement.classList.contains("dark") ? "242, 209, 138" : "138, 97, 30"; }; updateParticleTheme(); const themeObserver = new MutationObserver(updateParticleTheme); themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });';
+if (!source.includes(oldParticle)) throw new Error("Particle initialization not found");
+source = source.replace(oldParticle, newParticle);
+source = source.replace('ctx.fillStyle = `rgba(242, 209, 138, ${p.a})`; ctx.shadowBlur = 8; ctx.shadowColor = "rgba(242, 209, 138, .38)";', 'ctx.fillStyle = `rgba(${particleColor}, ${p.a})`; ctx.shadowBlur = 8; ctx.shadowColor = `rgba(${particleColor}, .38)`;');
+source = source.replace('return () => { cancelAnimationFrame(frame); window.removeEventListener("resize", resize); }; }, []);', 'return () => { cancelAnimationFrame(frame); window.removeEventListener("resize", resize); themeObserver.disconnect(); }; }, []);');
+fs.writeFileSync(path, source);
+console.log("Added channel filters and theme-adaptive particles");

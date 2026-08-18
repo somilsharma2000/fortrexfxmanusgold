@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786786271476,
+      "tag": "0000_lumpy_northstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786786699474,
+      "tag": "0001_grey_the_hunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786789235676,
+      "tag": "0002_opposite_agent_zero",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786789257663,
+      "tag": "0003_special_banshee",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786911474126,
+      "tag": "0004_slimy_bushwacker",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1786957563577,
+      "tag": "0005_unusual_lady_ursula",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1786976221828,
+      "tag": "0006_hot_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1786977640162,
+      "tag": "0007_condemned_zemo",
+      "breakpoints": true
+    }
+  ]
+}

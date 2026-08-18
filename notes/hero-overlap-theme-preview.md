@@ -1,0 +1,3 @@
+# Hero overlap and theme preview findings
+
+The desktop hero now places the crown focal art below the early-access progress region with the launch card visibly separated; the crown no longer intrudes into the card’s text area. The mobile layout intentionally hides the desktop-only focal composition, so the header crown, hero CTA, progress meter, and sticky navigation remain clear at 390px. The updated material-card hover hooks cover the launch card, status cards, reveal card, Community notice, social cards, and token surfaces. Initial theme selection now uses a stored manual choice first and the system color preference when no choice exists.
