@@ -133,6 +133,14 @@ function PolicySheet({ kind, onClose }: { kind: "terms" | "privacy"; onClose: ()
 type ContactModalProps = { message: string; onMessageChange: (value: string) => void; mailto: string; onClose: () => void };
 
 function ContactModal({ message, onMessageChange, mailto, onClose }: ContactModalProps) {
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
+
   return <div className="contact-backdrop" role="presentation" onMouseDown={onClose}><section className="contact-dialog glass gold-border" role="dialog" aria-modal="true" aria-labelledby="contact-title" onMouseDown={(event) => event.stopPropagation()}><div className="mb-5 flex items-start justify-between gap-4"><div><div className="text-[10px] font-bold uppercase tracking-[.22em] text-[#c9973e]">Fortrex / Support</div><h2 id="contact-title" className="display mt-2 text-3xl font-bold text-[#fff7e6]">Contact Us</h2></div><button type="button" onClick={onClose} className="modal-close text-[#a99b7a] hover:text-[#fff7e6]" aria-label="Close Contact Us">×</button></div><p className="text-sm leading-6 text-[#a99b7a]">Send a message to the Fortrex support desk and keep the subject concise so the right person can respond.</p><label className="mt-5 block text-left"><span className="mb-2 block text-xs font-semibold uppercase tracking-[.14em] text-[#a99b7a]">Your message</span><textarea value={message} onChange={(event) => onMessageChange(event.target.value)} maxLength={600} rows={5} placeholder="How can we help?" className="contact-message-input w-full rounded-xl px-4 py-3 text-sm text-[#fff7e6] outline-none placeholder:text-[#766c57]" /></label><div className="mt-2 text-right text-[11px] text-[#766c57]">{message.length}/600</div><div className="mt-5 grid gap-3 sm:grid-cols-2"><button type="button" onClick={onClose} className="secondary-cta rounded-full px-5 py-3 text-xs font-bold uppercase tracking-[.12em]">Cancel</button><a href={mailto} onClick={onClose} className="primary-cta flex items-center justify-center rounded-full px-5 py-3 text-xs font-bold uppercase tracking-[.12em]">Open email</a></div></section></div>;
 }
 
