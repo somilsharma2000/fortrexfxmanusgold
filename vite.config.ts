@@ -150,8 +150,8 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 const isGithubPagesBuild = process.env.VITE_GITHUB_PAGES === "1";
+const plugins = [react(), tailwindcss(), ...(isGithubPagesBuild ? [] : [jsxLocPlugin()]), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/",
